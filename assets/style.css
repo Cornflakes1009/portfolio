@@ -1,3 +1,9 @@
 .navbar {
     color: white;
 }
+.card-size {
+    min-height: 250px;;
+}
+.card-color {
+    background-color: rgb(117, 133, 160);
+}
