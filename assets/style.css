@@ -1,3 +1,6 @@
+#background-color {
+    background-color: #d5dde2;
+}
 .navbar {
     color: white;
 }
@@ -6,4 +9,16 @@
 }
 .card-color {
     background-color: rgb(117, 133, 160);
+    color: white;
+}
+.center-skill {
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+a {
+    color: white;
+}
+.image-height {
+   height: 130px;
+    border-bottom: 1px solid gray;
 }

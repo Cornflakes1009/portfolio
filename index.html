@@ -5,25 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Title </title>
+    <title> Portfolio </title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body>
+<body id="background-color">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="mr-auto ml-auto">About</div>
-            <div class="mr-auto">Portfolio</div>
-            <div class="mr-auto">Resume</div>
-            <div class="mr-auto">Contact</div>
+            <div class="mr-auto ml-auto">
+                <a href="">About</a>
+            </div>
+            <div class="mr-auto">
+                <a href="">Portfolio</a>
+            </div>
+            <div class="mr-auto">
+                <a href="">Resume</a>
+            </div>
+            <div class="mr-auto">
+                <a href="">Contact</a>
+            </div>
 
         </div>
     </nav>
@@ -36,7 +43,7 @@
                 <h1 class="display-3">Harold Davidson</h1>
                 <img src="assets/images/profilePic.jpg" alt="Photo of me with Manila Bay behind me" class="rounded-circle" height="250px"
                     width="250px">
-                <p class="lead mt-3">Some text for a placeholder</p>
+                <p class="lead mt-3">To the guy that invented zero, thanks for nothing.</p>
             </div>
 
         </div>
@@ -62,55 +69,73 @@
             <div class="col-md-3">
                 <div class="card card-size card-color">
                     <div class="card-body text-center">
-                        <h2 class="card-title">HTML</h2>
+                        <h2 class="card-title center-skill">HTML</h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/hangman.jpg" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h3 class="">Hangman</h3>
+                        <div>
+                            HTML, CSS, JavaScript
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card card-size card-color">
                     <div class="card-body text-center">
-                        <h2 class="card-title">CSS</h2>
+                        <h2 class="card-title center-skill">CSS</h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/crystals.jpg" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h3 class="">Crystal Collector</h3>
+                        <div>Bootstrap, jQuery</div>
+                    </div>
                 </div>
             </div>
         </div>
         <!--second row of portfolio-->
         <div class="row mb-4 mt-4">
-            <div class="col-md-3">
+            <div class="col-md-3 text-center">
                 <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card card-size card-color">
-                    <div class="card-body text-center">
-                        <h2 class="card-title">JavaScript</h2>
+                    <img class="card-img-top image-height" src="assets/images/harry-potter-trivia.jpg" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h3 class="">Trivia Game</h3>
+                        <div>Bootstrap, JS timers, jQuery</div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
+                <div class="card card-size card-color">
+                    <div class="card-body text-center">
+                        <h2 class="card-title center-skill">JavaScript</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/starship.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Starships</h3>
+                        <div>jQuery, Firebase, Moment.js</div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card card-size card-color">
                     <div class="card-body text-center">
-                        <h2 class="card-title">jQuery</h2>
+                        <h2 class="card-title center-skill">jQuery</h2>
                     </div>
                 </div>
             </div>
@@ -120,55 +145,102 @@
             <div class="col-md-3">
                 <div class="card card-size card-color">
                     <div class="card-body text-center">
-                        <h2 class="card-title">Firebase</h2>
+                        <h2 class="card-title center-skill">API</h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/gif.gif" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Giphtastic</h3>
+                        <div>jQuery, APIs</div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card card-size card-color">
                     <div class="card-body text-center">
-                        <h2 class="card-title">Node</h2>
+                        <h2 class="card-title center-skill">Firebase</h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/recycle.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Disposal Finder</h3>
+                        <div>jQuery, Firebase, Google Maps</div>
+                    </div>
                 </div>
             </div>
         </div>
         <!--fourth row of portfolio-->
         <div class="row mb-4 mt-4">
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card card-size card-color">
-                    <div class="card-body text-center">
-                        <h2 class="card-title">Express</h2>
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/recycle.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Liri</h3>
+                        <div>Node, APIs, Inquirer</div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card card-size">
-                    <img class="card-img-top" src="assets/images/starship.jpg" alt="Card image cap">
-                    <div class="card-body"> Some more card content </div>
+                <div class="card card-size card-color">
+                    <div class="card-body text-center">
+                        <h2 class="card-title center-skill">Node</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/friends.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Friend Finder</h3>
+                        <div>Node, Express</div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card card-size card-color">
                     <div class="card-body text-center">
-                        <h2 class="card-title">MySQL</h2>
+                        <h2 class="card-title center-skill">Express</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fifth row of portfolio-->
+        <div class="row mb-4 mt-4">
+            <div class="col-md-3">
+                <div class="card card-size card-color">
+                    <div class="card-body text-center">
+                        <h2 class="card-title center-skill">Handlebars</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/burgers.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Eat da Burger</h3>
+                        <div>Handlebars, Express, MySQL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-size card-color">
+                    <div class="card-body text-center">
+                        <h2 class="card-title center-skill">MySQL</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-size text-center">
+                    <img class="card-img-top image-height" src="assets/images/recycle.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="">Disposal Finder</h3>
+                        <div>jQuery, Firebase, Google Maps</div>
                     </div>
                 </div>
             </div>
