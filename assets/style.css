@@ -22,3 +22,9 @@ a {
    height: 130px;
     border-bottom: 1px solid gray;
 }
+.card {
+    box-shadow: 3px 5px #606670;
+}
+.section-header-text {
+    font-size: 72px;
+}
