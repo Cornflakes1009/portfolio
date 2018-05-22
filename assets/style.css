@@ -3,17 +3,20 @@
 }
 .navbar {
     color: white;
+    
 }
-.card-size {
+/* .card-size {
     min-height: 250px;;
-}
+} */
 .card-color {
-    background-color: rgb(117, 133, 160);
+    /* background-color: rgb(117, 133, 160); */
+    /* background-color: #42c2f4; */
+    /* background-color: #ff8c00; */
+    background-color: #2e3338;
     color: white;
 }
 .center-skill {
-    margin-top: 40%;
-    margin-bottom: 40%;
+    margin-top: 17%;
 }
 a {
     color: white;
@@ -23,8 +26,11 @@ a {
     border-bottom: 1px solid gray;
 }
 .card {
-    box-shadow: 3px 5px #606670;
+    box-shadow: 5px 5px 20px #606670;
 }
 .section-header-text {
     font-size: 72px;
+}
+.skill-card-height {
+    height: 150px;
 }
