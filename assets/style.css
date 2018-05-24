@@ -5,9 +5,6 @@
     color: white;
     
 }
-/* .card-size {
-    min-height: 250px;;
-} */
 .card-color {
     /* background-color: rgb(117, 133, 160); */
     /* background-color: #42c2f4; */
@@ -22,7 +19,7 @@ a {
     color: white;
 }
 .image-height {
-   height: 130px;
+   height: 175px;
     border-bottom: 1px solid gray;
 }
 .card {
@@ -31,9 +28,7 @@ a {
 .section-header-text {
     font-size: 72px;
 }
-.skill-card-height {
-    height: 150px;
-}
+
 #resume {
     box-shadow: 5px 5px 20px #606670;
 }
