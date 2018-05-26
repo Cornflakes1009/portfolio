@@ -56,3 +56,7 @@ a {
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+.code-links {
+    color: red;
+}
