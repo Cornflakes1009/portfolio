@@ -3,7 +3,13 @@
 }
 .navbar {
     color: white;
-    
+}
+#profile-pic {
+    border-radius: 30%;
+    height: 350px;
+}
+h1 {
+    font-family: 'Basic', sans-serif;
 }
 .card-color {
     /* background-color: rgb(117, 133, 160); */
@@ -26,7 +32,7 @@ a {
     box-shadow: 5px 5px 20px #606670;
 }
 .section-header-text {
-    font-size: 72px;
+    font-size: 65px;
 }
 
 #resume {
