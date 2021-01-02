@@ -9,6 +9,10 @@ h1 {
     font-family: 'Basic', sans-serif;
 }
 
+.ios-card {
+    height: 35rem;
+}
+
 #back-to-top-button {
     display: none;
     position: fixed;
@@ -46,7 +50,13 @@ a {
 }
 
 .image-height {
-   height: 175px;
+    height: 175px;
+    border-bottom: 1px solid gray;
+}
+
+.ios-image-height {
+    height: 450px;
+
     border-bottom: 1px solid gray;
 }
 
