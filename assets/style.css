@@ -10,7 +10,7 @@ h1 {
 }
 
 .ios-card {
-    height: 35rem;
+    height: 25rem;
 }
 
 #back-to-top-button {
@@ -55,7 +55,7 @@ a {
 }
 
 .ios-image-height {
-    height: 450px;
+    height: 300px;
 
     border-bottom: 1px solid gray;
 }
